@@ -1,0 +1,26 @@
+# Secrets - never commit
+/backend/config/master.key
+/backend/config/*.key
+.env*
+!.env.example
+
+# Dependencies
+node_modules/
+/backend/vendor/bundle
+
+# Logs, temp, uploads
+/backend/log/*
+!/backend/log/.keep
+/backend/tmp/*
+!/backend/tmp/.keep
+/backend/storage/*
+!/backend/storage/.keep
+
+# Build output
+/frontend/dist
+
+# OS / editor
+.DS_Store
+*.swp
+.idea
+.vscode
